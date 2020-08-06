@@ -25,7 +25,8 @@
         android:text="Join The Umbrella Academy"
         android:textColor="#1f4068"
         android:textSize="16dp"
-        app:fontFamily="@font/atomic_age" />
+        android:textStyle="bold"
+        app:fontFamily="@font/kadwa" />
 
     <TextView
         android:id="@+id/textView2"
