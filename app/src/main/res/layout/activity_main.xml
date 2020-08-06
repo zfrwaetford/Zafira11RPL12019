@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:gravity="center"
-        android:text="WELCOME PLEASE LOG IN"
+        android:text="WELCOME, PLEASE LOG IN"
         android:textColor="#1f4068"
         android:textSize="17dp"
         app:fontFamily="@font/atomic_age" />
@@ -39,7 +39,7 @@
         android:layout_marginEnd="20dp"
         android:hint="Username"
         android:textColorHint="#1f4068"
-        android:backgroundTint="#1f4068"/>
+        android:backgroundTint="#900d0d"/>
 
     <EditText
         android:id="@+id/txtpassword"
@@ -51,7 +51,7 @@
         android:layout_marginEnd="20dp"
         android:hint="Password"
         android:textColorHint="#1f4068"
-        android:backgroundTint="#1f4068"/>
+        android:backgroundTint="#900d0d"/>
 
     <Button
         android:id="@+id/btnlogin"

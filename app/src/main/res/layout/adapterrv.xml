@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    android:layout_margin="20dp"
+    android:elevation="10dp"
+    app:cardElevation="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="#f9f7d9">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f9f7d9">
+
+        <ImageView
+            android:id="@+id/ivprofile"
+            android:src="@drawable/five"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/tvname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number Five"
+                android:textColor="#1f4068"
+                android:textStyle="bold"
+                app:fontFamily="@font/autour_one" />
+
+            <TextView
+                android:id="@+id/tvdesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We didn't choose this life, we're
+                 just living it. —Number Five"
+                android:textColor="#1f4068"
+                app:fontFamily="monospace" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f9f7d9"
+        android:layout_marginTop="110dp">
+
+        <ImageView
+            android:id="@+id/vanya"
+            android:src="@drawable/vanya"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/tvvanya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vanya Hargreeves"
+                android:textColor="#1f4068"
+                android:textStyle="bold"
+                app:fontFamily="@font/autour_one" />
+
+            <TextView
+                android:id="@+id/ky"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We all wanted to be loved
+                by a man incapable of giving love. —Vanya"
+                android:textColor="#1f4068"
+                app:fontFamily="monospace" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f9f7d9"
+        android:layout_marginTop="220dp">
+
+        <ImageView
+            android:id="@+id/luther"
+            android:src="@drawable/luther"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/tvluther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Luther Hargreeves"
+                android:textColor="#1f4068"
+                android:textStyle="bold"
+                app:fontFamily="@font/autour_one" />
+
+            <TextView
+                android:id="@+id/tvL2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="you can never lose an argument
+                if you say 'shut up, nerd' at the end. —Luther"
+                android:textColor="#1f4068"
+                app:fontFamily="monospace" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f9f7d9"
+        android:layout_marginTop="330dp">
+
+        <ImageView
+            android:id="@+id/klaus"
+            android:src="@drawable/klau"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/tvklaus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Klaus Hargreeves"
+                android:textColor="#1f4068"
+                android:textStyle="bold"
+                app:fontFamily="@font/autour_one" />
+
+            <TextView
+                android:id="@+id/tvk2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I love you! Even if you can’t
+                love yourself!. —Klaus"
+                android:textColor="#1f4068"
+                app:fontFamily="monospace" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f9f7d9"
+        android:layout_marginTop="430dp">
+
+        <ImageView
+            android:id="@+id/pogo"
+            android:src="@drawable/pogo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/tvpogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pogo"
+                android:textColor="#1f4068"
+                android:textStyle="bold"
+                app:fontFamily="@font/autour_one" />
+
+            <TextView
+                android:id="@+id/tvp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="One grows used to
+                things, even if sometimes one shouldn’t.. —Pogo"
+                android:textColor="#1f4068"
+                app:fontFamily="monospace" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f9f7d9"
+        android:layout_marginTop="540dp">
+
+        <ImageView
+            android:id="@+id/reginald"
+            android:src="@drawable/reginald"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/tvreginald"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reginald Hargreeves"
+                android:textColor="#1f4068"
+                android:textStyle="bold"
+                app:fontFamily="@font/autour_one" />
+
+            <TextView
+                android:id="@+id/tvr2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The ties that bind you together, make you stronger than you are alone. —Reginald"
+                android:textColor="#1f4068"
+                app:fontFamily="monospace" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="629dp"
+        android:gravity="center">
+
+    <ImageView
+        android:id="@+id/tua"
+        android:src="@drawable/TUA"
+        android:layout_width="110dp"
+        android:layout_height="100dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
