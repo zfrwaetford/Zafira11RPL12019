@@ -22,17 +22,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        pref = getSharedPreferences("login",MODE_PRIVATE);
+        pref = getSharedPreferences("login", MODE_PRIVATE);
         txtusername = (EditText)findViewById(R.id.txtusername);
         txtpassword = (EditText)findViewById(R.id.txtpassword);
         btnlogin = (Button) findViewById(R.id.btnlogin);
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                if (txtusername.getText().toString().equalsIgnoreCase("zafira")
-                        && txtpassword.getText().toString().equalsIgnoreCase("zups")) {
-                    //saving ke sp
+            public void onClick(View view) {
+                if (txtusername.getText().toString().equalsIgnoreCase("admin")
+                        && txtpassword.getText().toString().equalsIgnoreCase("admin")){
+                    //saving ke SP
                     editor = pref.edit();
                     editor.putString("username", txtusername.getText().toString());
                     editor.putString("status", "login");
@@ -40,11 +39,8 @@ public class MainActivity extends AppCompatActivity {
                     //menuju ke main menu
                     startActivity(new Intent(getApplicationContext(), MainMenu.class));
                     finish();
-
-
                 }
             }
         });
-
     }
 }
