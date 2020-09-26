@@ -1,14 +1,24 @@
 package com.example.zafira11rpl12019;
 
 public class Model {
+    //https://image.tmdb.org/t/p/w500/k68nPLbIST6NP96JmTxmZijEvCA.jpg
     String original_title;
     String release_date;
     String poster_path;
     Boolean adult;
     String overview;
     int vote_count;
+    int id;
 
-    public String getOriginal_title(){
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getOriginal_title() {
         return original_title;
     }
 
@@ -16,7 +26,7 @@ public class Model {
         this.original_title = original_title;
     }
 
-    public String getRelease_date(){
+    public String getRelease_date() {
         return release_date;
     }
 
@@ -24,7 +34,7 @@ public class Model {
         this.release_date = release_date;
     }
 
-    public String getPoster_path(){
+    public String getPoster_path() {
         return poster_path;
     }
 
@@ -32,22 +42,21 @@ public class Model {
         this.poster_path = poster_path;
     }
 
-    public Boolean getAdult(){
+    public Boolean getAdult() {
         return adult;
     }
 
-    public void setAdult(Boolean adult){
+    public void setAdult(Boolean adult) {
         this.adult = adult;
     }
 
-    public String getOverview(){
+    public String getOverview() {
         return overview;
     }
 
     public void setOverview(String overview) {
         this.overview = overview;
     }
-
 
     public int getVote_count() {
         return vote_count;
@@ -56,4 +65,6 @@ public class Model {
     public void setVote_count(int vote_count) {
         this.vote_count = vote_count;
     }
+
+
 }

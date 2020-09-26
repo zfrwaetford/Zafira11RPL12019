@@ -2,7 +2,7 @@
 
 <androidx.cardview.widget.CardView
     android:id="@+id/cardku"
-    android:layout_margin="20dp"
+    android:layout_margin="10dp"
     android:elevation="10dp"
     app:cardElevation="10dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -18,8 +18,9 @@
         android:background="#ffffff">
 
         <ImageView
+            android:padding="5dp"
             android:id="@+id/ivprofile"
-            android:src="@drawable/five"
+            android:src="@mipmap/ic_launcher"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
@@ -30,22 +31,21 @@
             android:layout_margin="10dp">
 
             <TextView
+                android:textColor="#1f4068"
+                android:textStyle="bold"
+                android:text="Name placeholder"
                 android:id="@+id/tvname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Number Five"
-                android:textColor="#1f4068"
-                android:textStyle="bold"
-                app:fontFamily="@font/autour_one" />
+                app:fontFamily="@font/boogaloo"/>
 
             <TextView
                 android:id="@+id/tvdesc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="We didn't choose this life, we're
-                 just living it. —Number Five"
+                android:text="desc placeholder"
                 android:textColor="#1f4068"
-                app:fontFamily="monospace" />
+                app:fontFamily="@font/boogaloo" />
 
         </LinearLayout>
 
