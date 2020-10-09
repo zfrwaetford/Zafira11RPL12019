@@ -8,6 +8,7 @@ import io.realm.Realm;
 import io.realm.RealmResults;
 
 public class RealmHelper {
+
     Realm realm;
 
     public  RealmHelper(Realm realm){
@@ -38,8 +39,9 @@ public class RealmHelper {
     }
 
     // untuk memanggil semua data
-    public List<ModelMovieRealm> getAllMahasiswa(){
+    public List<ModelMovieRealm> getAllMovie(){
         RealmResults<ModelMovieRealm> results = realm.where(ModelMovieRealm.class).findAll();
         return results;
     }
+
 }

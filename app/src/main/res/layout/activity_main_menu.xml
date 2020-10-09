@@ -19,7 +19,7 @@
 <ImageView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:src="@drawable/movie"/>
+    android:src="@drawable/popcorn"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -45,7 +45,7 @@
                     android:padding="10dp"
                     android:singleLine="true"
                     android:text="Movie"
-                    android:textColor="#000000"
+                    android:textColor="#900d0d"
                     android:textSize="24sp"
                     app:fontFamily="@font/aclonica"
                     tools:targetApi="lollipop" />
@@ -68,7 +68,8 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/crown"/>
+            android:layout_marginTop="15dp"
+            android:src="@drawable/like"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -94,7 +95,7 @@
                     android:padding="10dp"
                     android:singleLine="true"
                     android:text="My Favorite"
-                    android:textColor="#000000"
+                    android:textColor="#900d0d"
                     android:textSize="24sp"
                     app:fontFamily="@font/aclonica"
                     tools:targetApi="lollipop" />

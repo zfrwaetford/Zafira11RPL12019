@@ -31,21 +31,22 @@
             android:layout_margin="10dp">
 
             <TextView
-                android:textColor="#1f4068"
-                android:textStyle="bold"
-                android:text="Name placeholder"
                 android:id="@+id/tvname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:fontFamily="@font/boogaloo"/>
+                android:fontFamily="@font/aclonica"
+                android:text="Name placeholder"
+                android:textColor="#900d0d"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvdesc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/boogaloo"
                 android:text="desc placeholder"
-                android:textColor="#1f4068"
-                app:fontFamily="@font/boogaloo" />
+                android:textColor="#900d0d"
+                android:textSize="14dp" />
 
         </LinearLayout>
 
