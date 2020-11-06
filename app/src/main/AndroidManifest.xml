@@ -15,8 +15,9 @@
         android:roundIcon="@drawable/popcorn"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-        android:usesCleartextTraffic="true">>
-        <activity android:name=".DetailMovie"></activity>
+        android:usesCleartextTraffic="true">
+        <activity android:name=".DetailFavourite"></activity>
+        <activity android:name=".DetailMovie"/>
         <activity android:name=".ListData" />
         <activity android:name=".ListDataFavourite" />
         <activity android:name=".ControlClass">
